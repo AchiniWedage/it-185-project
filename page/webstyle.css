@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root{
+    --lg-font:" Kaisei Tokumin", serif;
+    --sm-font: "Poppins", sans-serif;
+    --orange:#9BDC00;
+}
+body{
+    font-family: var(--sm-font);
+}
+.bg-primary{
+    background-color: #9BDC00!important;
+}
+.btn:not(.nav-btns button){
+    background-color: #fff;
+    color: rgb(85,85,85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85,85,85);
+}
+.btn:not(.nav-btns button):hover{
+    background-color:#9BDC00 ;
+    color: #fff;
+    border-color: #9BDC00;
+}
+.text-primary{
+    color: #9BDC00 !important;
+}
+.navbar{
+box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);
+}
+.navbar-brand img{
+    width:30px;
+}
+.navbar-brand span{
+    letter-spacing: 3px;
+    font-family:var(--lg-font);
+}
+.nav-link:hover{
+    color: #9BDC00!important;
+}
+.nav-item{
+    border-bottom: 0.5px solid white;
+}
+#header{
+    background: url(Images/20.jpg) center/cover no-repeat;
+}
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+.carousel-item .btn{
+    border-color: #fff !important;
+}
+.carousel-item .btn:hover{
+    border-color: #9BDC00;
+}
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: #9BDC00;
+    left: -20px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.active-filter-btn{
+    background-color: #9BDC00!important; 
+    color: #fff !important;
+    border-color: #9BDC00!important;
+}
+.filter-button-group .btn:hover{
+    color: #fff !important;
+}
+.collection-img span{
+    top:20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+.special-img span{
+    top:20px;
+    right: 20px;
+}
+.special-list .btn{
+    padding: 8px 20px!important;
+}
+.special-img img{
+    transition: all 0.3s ease;
+}
+.special-img-hover img{
+    transform: scale(1,2);
+}
+
+#offers{
+    background: url(Images/94.jpg) center/cover no-repeat;
+}
+#offers .row{
+    min-height: 100vh;
+}
+.offers-content span{
+    font-size: 28px;
+}
+.offers-content h2{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+.offers-content btn{
+    border-color: transparent!important;
+}
+#about{
+    background-color: rgba(179,179,179,0.05);
+}
+#newsletter{
+    background-color: rgba(179,179,179,0.05);
+}
+#newsletter p{
+    max-width: 600px;
+}
+#newsletter .input-group{
+    max-width: 500px;
+}
+#newsletter .form-control{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#newsletter .btn{
+    background-color: #9BDC00;
+    color: #fff;
+    border-color: #9BDC00;
+}
+#newsletter .btn:hover{
+    background-color: #000;
+    border-color:#000;
+}
+#footer{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+}
+footer{
+    background: #343434;
+    padding: 50px;
+}
+footer .container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+}
+footer h3{
+    font-size: 28px;
+    margin-bottom:15px;
+    text-align: center;
+}
+footer .footer-content p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+}
+footer .footer-content ul{
+    text-align: center;
+}
+footer .list{
+    padding: 0;
+}
+footer .list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+footer .list li::before{
+    content: "";
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background:#9BDC00;
+    transition-duration: 5s;
+}
+footer .list li:hover::before{
+    width: 70px;
+}
+footer.social-icons{
+    text-align: center;
+    padding: 0;
+}
+footer.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid white;
+}
+footer.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    color: #9BDC00;
+}
+footer.social-icons i:hover{
+    color: #9BDC00;
+}
+footer .bottom-bar{
+    background:#9BDC00;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+footer .bottom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+
+#about {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#about .bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Places video behind the content */
+}
+
+@media(min-width:992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}
+
+
+
+
+
